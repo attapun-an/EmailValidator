@@ -22,6 +22,10 @@ while run:
             print("Invalid")
     else:
         print("Invalid")
+    cont = input("continue [y/n]")
+    if cont == "n":
+        run = False
+
 
 
 
